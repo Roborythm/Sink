@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="wash basin">
+  <link
+    name="wash basin">
+    <inertial>
+      <origin
+        xyz="-4.68E-05 0.0053859 -0.010112"
+        rpy="0 0 0" />
+      <mass
+        value="8.9621" />
+      <inertia
+        ixx="0.31598"
+        ixy="-0.00056426"
+        ixz="-0.00023149"
+        iyy="0.94848"
+        iyz="0.023346"
+        izz="1.1574" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wash basin/meshes/wash basin.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+        <texture
+          filename="package://wash basin/textures/" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://wash basin/meshes/wash basin.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
